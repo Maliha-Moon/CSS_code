@@ -1,0 +1,46 @@
+/*------Selectors----*/
+/* Universal Selectors
+  ? Select whole document 
+*/
+*{
+    color:blue;
+}
+
+/* Element Selector
+   ? select html elements(one at a time) to style
+ */
+/* ---Foreground---- */
+h1{
+    color:#6D435A;
+}
+p{
+    color:#B1EDE8;
+}
+button{
+    color:#FFFCF9;
+    background-color: #340068;
+}
+/* ----Background---- */
+body{
+    background-color: #FF6978;
+} 
+
+/* Id Selector
+  ? uses the id attribute of an HTML element to select a specific element.
+*/
+#HeadingOne{
+    color:brown;
+}
+#HeadingTwo{
+    color: rebeccapurple;
+}
+#HeadingThree{
+    color:green;
+}
+
+/* Class selector
+  ? select multiple html elements (at a time) with style same definitions
+ */
+ .myClass{
+    color:beige;
+ }
