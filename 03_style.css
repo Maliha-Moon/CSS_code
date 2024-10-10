@@ -1,0 +1,46 @@
+/* CSS FONT */
+/* ---font-weight--- */
+/* font-weight 100-900 */
+#heading1 {
+    font-weight: normal;
+}
+
+#heading2 {
+    font-weight: bold;
+}
+
+#heading3 {
+    font-weight: bolder;
+}
+
+#heading4 {
+    font-weight: lighter;
+}
+
+/* ---font-family--- */
+#one {
+    font-family: arial;
+    /* fallback mechanism */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     /* ---Font style--- */
+     font-style: normal;
+    /* ---font size--- */
+    font-size: 25px;
+}
+
+#two{
+   font-style: italic;
+   font-size: 20px;
+} 
+
+#three{
+    font-size: 30px;
+    font-style: italic;
+   
+}
+
+/* --font variant-- */
+#four{
+    
+    font-variant: small-caps;
+}
