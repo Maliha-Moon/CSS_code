@@ -1,0 +1,36 @@
+/* CSS Units */
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    font-size: 25px;
+}
+#box2{
+    height: 50%;
+    /* 30% of parent width */
+    width: 50%;
+    margin-left: 20%;
+    background-color: beige;
+    
+    /* ---font: em---
+    ? 2 times of parent font size
+    ? depends on parent size*/
+    font-size: 2em;
+
+    /* ---width: em---
+    ? 2 times width of the font size of its element 
+    ? depends on elements size*/
+    width: 2em;
+
+    /* ---rem---
+    ?  depends on root size
+    ? here, size of hello * 5
+    = 16px * 5 = 80px */
+    width:5rem;
+
+    /* ---viewport(dekstop) size--- */
+    /* 50% of dekstop height */
+    height: 50vh;
+    /* 70% of dekstop width */
+    /* width: 70%vw; */
+}
