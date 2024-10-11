@@ -1,0 +1,25 @@
+/* Display property
+?  display: inline(space that occupy element) /block(full width of the screen) */
+div {
+    background-color: blue;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+}
+
+#one {
+    /* Alpa channel = Opacity */
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+#two {
+    background-color: rgba(0, 0, 255, 0.75);
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+#three {
+   background-color: rgba(0, 0, 255, 1);
+}
