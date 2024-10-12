@@ -1,0 +1,57 @@
+/* Position property
+? sets how an element positioned in a webpage 
+-> by default position = static
+-> in static, top,bottom,left,right,z-index does not work! */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+#box1{
+    position: static;
+   
+}
+/* relative
+? relative to its normal position. */
+#box2{
+    position: relative;
+    top:10px;
+    left:10px;
+    z-index: 3;
+}
+/* Absolute position
+? Child is always absolute
+? Parent is always relative
+-> Absolute positioned elements are removed from the normal flow, 
+and can overlap elements. */
+#box3{
+    position: absolute;
+    top:500px;
+    left:20px;
+}
+/* Fixed 
+? related to browes
+-> mainly used for header(navbar) & footer
+-> always stays in the same place even if the page is scrolled */
+#box4{
+    position: fixed;
+    left: 20px;
+    /* bottom:0;
+    width: 100vw; */
+    top:0;
+}
+/* Sticky
+? positioned based on the user's scroll position.*/
+#box5{
+    position: sticky;
+    top:0;
+    left:20px;
+}
+/* Z-index
+? decides the stack order of the element 
+? positive = front
+? negative = back
+-> cannot set z-index property in "static position" */
