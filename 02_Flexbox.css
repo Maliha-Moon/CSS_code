@@ -1,0 +1,75 @@
+/* ---Flex items property--- */
+body {
+    text-align: center;
+}
+
+.container {
+    height: 300px;
+    width: 50vw;
+    background-image: linear-gradient(rgba(0, 77, 122, 0.9),
+            rgba(0, 135, 147, 0.9),
+            rgba(0, 191, 114, 0.9),
+            rgba(168, 235, 18, 0.9));
+
+    
+    display: flex;
+   
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid green;
+    color: white;
+    /* grow & shrink automatically across main axis
+    -> 1 means grow or shrink equally
+    -> 2 means grow or shrink double size of other items */
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+    
+}
+
+#box1 {
+    /* Diagonally */
+    background-image: linear-gradient(to bottom right, rgba(0, 77, 122, 0.9),
+            rgba(0, 135, 147, 0.9),
+            rgba(0, 191, 114, 0.9),
+            rgba(168, 235, 18, 0.9));
+            /* By default, order: 0 */
+            order: 1;
+}
+
+#box2 {
+    background-image: linear-gradient(to left, rgba(0, 77, 122, 0.9),
+            rgba(0, 135, 147, 0.9),
+            rgba(0, 191, 114, 0.9),
+            rgba(168, 235, 18, 0.9));
+            order:1;
+            /* align-self: flex-end; */
+
+}
+
+#box3 {
+    background-image: linear-gradient(to bottom, rgba(0, 77, 122, 0.9),
+            rgba(0, 135, 147, 0.9),
+            rgba(0, 191, 114, 0.9),
+            rgba(168, 235, 18, 0.9));
+            flex-grow: 2;
+}
+
+#box4 {
+    background-image: linear-gradient(to right, rgba(0, 77, 122, 0.9),
+            rgba(0, 135, 147, 0.9),
+            rgba(0, 191, 114, 0.9),
+            rgba(168, 235, 18, 0.9));
+            /* align-self: center; */
+}
+
+#box5 {
+    background-image: linear-gradient(rgba(0, 77, 122, 0.9),
+            rgba(0, 135, 147, 0.9),
+            rgba(0, 191, 114, 0.9),
+            rgba(168, 235, 18, 0.9));
+            order: 2;
+}
